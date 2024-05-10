@@ -1,0 +1,138 @@
+/* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet. You don't have to edit this line.*/
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
+
+.froat {
+  float:left;
+  position: relative;
+  text-align: center;
+  flex: 2;
+}
+
+#about-container{
+  display: flex;
+  align-items: center;
+}
+
+
+body {
+  color: #003049;
+  font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px;
+  background-color:  #eae2b7;
+}
+
+header{
+  flex-direction: row;
+  text-align: center;
+  margin: auto;
+  padding: 3% 0 2% 0;
+  align-items: center; 
+}
+
+#portfolio{
+  display: flex;
+}
+
+.item {
+  flex: 1; 
+  margin: 10px;
+}
+
+.item p{
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+
+.pull-under{
+  display: block !important;
+}
+
+header h1 {
+  flex: 2%;
+  display: inline-block;
+}
+
+#navi a{
+  margin: 10px;
+}
+
+#navi {
+  display: inline-block;
+  flex: 1%;
+}
+
+footer{
+  text-align: center;
+  margin: auto;
+}
+
+#about{
+  text-align: center;
+   margin: auto;
+}
+
+#pete{
+   margin: auto;
+  .image-circle {
+    border-radius: 50%;
+    border: 2px solid #003049;
+    height: auto; 
+    margin-right: 20px;
+    margin-left: 35px;
+  }
+}
+
+article div {
+  left: center;
+  width: 100%;
+}
+
+a{
+  color: #d62828;
+}
+
+a:hover {
+  color: #f77f00;
+}
+
+h1{
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  font-family: "Playfair Display", Times, serif;
+  text-align: center;
+}
+
+article {
+  padding: 50px 0;
+}
+
+
+p {
+  line-height: 1.5;
+  text-align: left;
+}
+
+/* The div container constrains the content width within the main container to 600px */
+body {
+  margin: auto;
+  width: 600px;
+}
+
+img {
+  width: 100%;
+  max-width: 200px;
+}
+
+hr {
+  border: 1px solid black;
+}
